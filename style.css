@@ -23,10 +23,10 @@ body {
 }
 
 .nav-menu {
-  width: 468px;
+  width: 375px;
   display: flex;
+  margin-top: 15px;
   align-items: center;
-  background: rgb(248, 248, 248);
   justify-content: space-between;
 }
 
@@ -34,13 +34,13 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 0.6rem 0.7rem;
+  padding: 0.3rem 0.7rem;
 }
 
-.logo p {
-  font-weight: 400;
+.logo-text {
   font-size: 20px;
-  color: rgba(91, 152, 231, 0.623);
+  font-weight: 500;
+  color: #157fd6;
 }
 
 .hamburger-menu {
@@ -48,6 +48,10 @@ body {
   align-items: flex-start;
   padding: 0.5rem;
   margin-right: 1.5rem;
+}
+
+.hamburger-menu i{
+  color: #157fd6;
 }
 
 a {
@@ -63,56 +67,54 @@ main {
 }
 
 .headline {
-  background: url("Images/background.png");
+  margin-top: 50px;
+  background: url("Images/backround-imag.png");
+  background-repeat: no-repeat;
   flex-direction: column;
   align-items: center;
-  width: 468px;
+  width: 375px;
   padding: 4rem 1.5rem;
   gap: 3.6rem;
   background-size: contain;
-  margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .headline-text {
   font-weight: 700;
-  margin-top: 0;
   font-size: 2.5rem;
   line-height: 3.2rem;
-  text-align: center;
+  text-align: start;
   color: #172b4d;
   margin-bottom: 0;
 }
 
-.headline-text span {
-  color: #2d6491;
-}
-
 .description-text {
-  font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.75rem;
   text-align: start;
-  color: #172b4d;
+  color: #909397;
   flex: none;
+  margin-top: -3px;
   flex-grow: 0;
 }
 
 .social-icons-header {
   font-weight: 500;
-  font-size: 24px;
-  color: #2d6491;
-  margin-top: 20px;
+  font-size: 16px;
+  color: #9bacbb;
+  text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .social-icons {
-  align-items: center;
   display: flex;
+  font-size: 20px;
   gap: 20px;
   color: #505f79;
   margin-bottom: calc(4.6rem - 3.6rem / 2);
-  padding-bottom: 0;
   list-style: none;
+  margin-top: -10px;
+  margin-left: -35px;
 }
 
 .social-icons .fa {
