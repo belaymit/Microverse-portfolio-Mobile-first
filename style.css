@@ -21,7 +21,6 @@ body {
 
 section {
   height: auto;
-  background: #f7f7f9;
   text-align: center;
 }
 
@@ -47,8 +46,8 @@ button {
 }
 
 button:hover {
-  background: #7a8ec2;
-  color: #172b4d;
+  background: #5076cf;
+  color: #fff;
 }
 
 .header,
@@ -57,7 +56,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  background: #f7f7f9;
+  background: #f9f9f9;
 }
 
 .header-container {
@@ -162,7 +161,7 @@ section {
 .work-section {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 36px;
 }
 
@@ -173,7 +172,7 @@ section {
 .projects {
   width: 100%;
   background: #fff;
-  margin-bottom: 88px;
+  margin: 20px 0 88px 0;
   border-radius: 15px;
   align-items: center;
   padding-top: 16px;
