@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile-First simple Portfolio
+# Mobile-First Portfolio
 
 > This is the first Mobile-first portfolio using simple HTML and CSS
+> It contains three section- header section, projects and works section and about section
+> it is only for mobile devices
 
 ## Built With
 
@@ -24,6 +26,7 @@ Basic understanding of - HTML - CSS - Figma design
 ### Usage
 
 ### Run tests
+the code is tested for HTML semantic tags, spacings and CSS rules using linters
 
 ### Deployment
 
@@ -47,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- I am greatefull for sinor microverse students
+- I am greatefull for sinor microverse students and code reviwers
 
 ## 📝 License
 
