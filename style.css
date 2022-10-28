@@ -53,10 +53,10 @@ button:hover {
   width: 100%;
   align-items: center;
   justify-content: center;
-  
 }
- 
-.header, section {
+
+.header,
+section {
   width: 30%;
   display: grid;
   grid-template-columns: 1fr;
@@ -78,15 +78,14 @@ button:hover {
   align-items: center;
   justify-content: space-between;
 }
- 
+
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 0.3rem 24px;
- 
 }
-  
+
 .logo-text {
   font-weight: 700;
   font-size: 18px;
@@ -159,8 +158,9 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .work-section {
@@ -170,7 +170,7 @@ button:hover {
   justify-content: center;
   margin-top: -40px;
   padding-top: 120px;
-  }
+}
 
 .projects {
   width: 90%;
@@ -197,7 +197,7 @@ button:hover {
   margin-bottom: 0;
 }
 
-.links, 
+.links,
 .courses {
   display: flex;
   align-items: center;
@@ -215,7 +215,7 @@ button:hover {
   margin-left: -20px;
 }
 
-.canopy{
+.canopy {
   color: #344563;
 }
 
@@ -224,20 +224,21 @@ button:hover {
 }
 
 .course-list {
- display: flex;
- align-items: center;
- gap: 12px;
- list-style: none;
- font-weight: 500;
- font-size: 12px;
- line-height: 16px;
- letter-spacing: 0.03em;
- color: #6070ff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }
 
 .courses {
   margin: -20px 0 0 -25px;
 }
+
 .courses-list {
   display: flex;
   flex-direction: row;
@@ -255,6 +256,7 @@ button:hover {
   padding: 20px 16px;
   margin-top: -20px;
 }
+
 .project-description {
   font-weight: 400;
   font-size: 15px;
@@ -329,10 +331,10 @@ button:hover {
   list-style: none;
   margin-left: -10px;
   font-size: 18px;
-  color: #505f79;  
+  color: #505f79;
 }
 
-a {
+.social-icon-item a {
   color: rgb(70, 67, 67);
   text-decoration: none;
 }
@@ -348,13 +350,13 @@ a {
   padding: 12px;
 }
 
-.language h1{
+.language h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .language-item {
