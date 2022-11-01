@@ -2,9 +2,13 @@
 
 # Mobile-First Portfolio
 
-> This is the first Mobile-first portfolio and is implemented using HTML and CSS only
+# Mobile-First simple Portfolio
+
+> This is the first Mobile-first portfolio using simple HTML and CSS
+> > This is the first Mobile-first portfolio and is implemented using HTML and CSS only
 > It contains three section- header section, projects and works section and about section
 > it is only for mobile devices
+> Me and @Andrea added contact form as our first pair-programming project
 
 ## Built With
 
@@ -26,7 +30,6 @@ Basic understanding of - HTML - CSS - Figma design
 ### Usage
 
 ### Run tests
-the code is tested for HTML semantic tags, spacings and CSS rules using linters
 
 ### Deployment
 
@@ -37,6 +40,10 @@ the code is tested for HTML semantic tags, spacings and CSS rules using linters
 - GitHub: [@githubhandle](https://github.com/belaymit?tab=repositories)
 - Twitter: [@twitterhandle](https://twitter.com/2belamit)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/belay-birhanu-144ba714b/)
+
+**Author2**
+
+- GitHub: [@githubhandle](https://github.com/rivasbolinga)
 
 ## 🤝 Contributing
 
@@ -50,7 +57,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- I am greatefull for sinor microverse students and code reviwers
+- I am grateful for senor Microverse students
+- I would like to appreciate and thank @Andrea Rivas for her collaboration
 
 ## 📝 License
 
