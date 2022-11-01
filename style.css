@@ -57,7 +57,6 @@ button:hover {
 
 .header,
 section {
-  /* width: 30%; */
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -73,7 +72,6 @@ section {
 }
 
 .nav-menu {
-  /* width: 85%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -167,7 +165,6 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 40px;
-  /* padding: 36px; */
 }
 
 .projects {
@@ -175,8 +172,6 @@ section {
   background: #fff;
   margin-bottom: 88px;
   border-radius: 15px;
-  /* align-items: center;
-  padding-top: 16px; */
 }
 
 .card-header {
@@ -383,25 +378,25 @@ section {
   justify-content: center;
   background: url("./Images/contact\ form\ shapes-mobile.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 70% 90%;
   background-position: right;
   background-color: #6070ff;
-  height: 779px;
   border-top-left-radius: 60px;
-  margin: 60px 0 0 0;
-  padding-bottom: 32px;
+  margin: 100px 0 0 0;
+  padding-bottom: 36px;
   position: relative;
 }
 
-contact-header {
+.contact-header {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .contact-header .contact-title {
   font-style: normal;
-  margin-top: 100px;
+  margin-top: 123px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -409,8 +404,9 @@ contact-header {
   color: #fff;
   margin-bottom: 0;
 }
+
 .contact-header p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -419,15 +415,18 @@ contact-header {
   color: #ebebff;
   margin: 12px 24px 0 24px;
 }
+
 .contact-form {
   width: 100%;
-  margin: 40px 0 0 0;
+  margin: 40px 0 20px 0;
 }
+
 .contact-form .input-field {
   display: flex;
   align-items: center;
   padding: 0 24px 18px 24px;
 }
+
 .contact-form .input-field .input,
 .contact-form .input-field .textarea {
   width: 100%;
@@ -438,9 +437,10 @@ contact-header {
   border-radius: 5px;
   transition: all 0.3s ease;
 }
+
 input::placeholder,
 textarea::placeholder {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -449,22 +449,25 @@ textarea::placeholder {
   align-items: center;
   color: #172b4d;
 }
+
 .contact-form .input-field .textarea {
   resize: none;
-  height: 125px;
+  height: 170px;
 }
+
 .contact-form .input-field .input:focus,
 .contact-form .input-field .textarea:focus {
   border: 1px solid #384404;
 }
+
 .contact-form .input-field .btn {
   padding: 12px 16px;
   width: 140px;
   height: 48px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   border: 0.3px dotted white;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -480,13 +483,13 @@ textarea::placeholder {
   color: #d5dbd9;
 }
 
-.contact-me::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 120px;
+.bottom-rectangle {
   width: 134px;
-  background: #0d151e;
   height: 5px;
+  position: absolute;
+  left: 107px;
+  top: 791px;
+  background: #0d151e;
   border-radius: 10px;
+  margin-bottom: 8px;
 }
