@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -169,7 +169,6 @@ section {
   margin-top: 40px;
   /* padding: 36px; */
 }
-
 
 .projects {
   width: 100%;
@@ -386,7 +385,7 @@ section {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  background-color: #6070FF;
+  background-color: #6070ff;
   height: 779px;
   border-top-left-radius: 60px;
   margin: 60px 0 0 0;
@@ -394,6 +393,87 @@ section {
   position: relative;
 }
 
+contact-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-header .contact-title {
+  font-style: normal;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+.contact-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 12px 24px 0 24px;
+}
+.contact-form {
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+.contact-form .input-field {
+  display: flex;
+  align-items: center;
+  padding: 0 24px 18px 24px;
+}
+.contact-form .input-field .input,
+.contact-form .input-field .textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 15px 38px 15px 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+.contact-form .input-field .textarea {
+  resize: none;
+  height: 125px;
+}
+.contact-form .input-field .input:focus,
+.contact-form .input-field .textarea:focus {
+  border: 1px solid #384404;
+}
+.contact-form .input-field .btn {
+  padding: 12px 16px;
+  width: 140px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 0.3px dotted white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  transition: all 0.5s ease;
+}
 
 .contact-form .input-field .btn:hover {
   background: #284b11;
@@ -406,8 +486,7 @@ section {
   bottom: 0;
   left: 120px;
   width: 134px;
-  background: #0D151E;
+  background: #0d151e;
   height: 5px;
   border-radius: 10px;
 }
-
