@@ -1,13 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile-First Portfolio
-
 # Mobile-First simple Portfolio
 
 > This is the first Mobile-first portfolio using simple HTML and CSS
-> > This is the first Mobile-first portfolio and is implemented using HTML and CSS only
+> This is the first Mobile-first portfolio and is implemented using HTML and CSS only
 > It contains three section- header section, projects and works section and about section
 > it is only for mobile devices
+
 > Me and @Andrea added contact form as our first pair-programming project
 
 ## Built With
