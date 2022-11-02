@@ -18,6 +18,13 @@
           <div class="logo">
             <a href="#" class="logo-text">My Portfolio</a>
           </div>
+          <div class="menu">
+            <ul class="menu-items">
+              <li class="menu-item"><a href="#">Portfolio</a></li>
+              <li class="menu-item"><a href="#">About</a></li>
+              <li class="menu-item"><a href="#">Contact</a></li>
+            </ul>
+          </div>
           <div class="hamburger-menu">
             <a href="#">
               <i class="fa-solid fa-bars"></i>
@@ -239,7 +246,7 @@
         </div>
       </div>
   </section>
-  <section class="contact-me">
+  <footer class="contact-me">
       <div class="contact-header">
         <h2 class="contact-title">Contact Me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that
@@ -248,19 +255,19 @@
       </div>
       <form class="contact-form" action="https://formspree.io/f/xqkjglvp" method="post">
         <div class="input-field">
-          <input type="text" class="input" placeholder="Something..." required maxlength="30">
+          <input type="text" class="input" name="name" value="Belay" placeholder="Something..." maxlength="30"  required>
         </div>
         <div class="input-field">
-          <input type="email" class="input" placeholder="someone@example.com" required>
+          <input type="email" name="email" class="input" value="2belamit@gmail.com" placeholder="someone@example.com" required>
         </div>
         <div class="input-field">
-          <textarea class="textarea" placeholder="Write something here..." maxlength="500" required></textarea>
+          <textarea class="textarea" name="message" placeholder="Write something here..." maxlength="500" required>This is my portfolio</textarea>
         </div>
         <div class="input-field">
           <input type="submit" class="btn" value="Get In Touch">
         </div>
         <div class="bottom-rectangle"></div>
       </form>
-  </section>
+  </footer>
 </body>
 </html>
