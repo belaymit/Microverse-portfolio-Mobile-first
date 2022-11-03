@@ -128,7 +128,7 @@ button:hover {
 }
 
 .description-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -556,6 +556,13 @@ textarea::placeholder {
   .menu-item a {
     text-decoration: none;
     color: #344563;
+    transition: all 0.5s ease;
+  }
+
+  .menu-item a:hover {
+    color: rgb(223, 197, 32);
+    font-size: 13px;
+    font-weight: bold;
   }
 
   .headline {
